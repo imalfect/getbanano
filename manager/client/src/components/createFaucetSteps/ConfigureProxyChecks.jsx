@@ -67,7 +67,7 @@ export default function ConfigureProxyChecksStep(props) {
         sx={{fontWeight: 700}}>
         To enable proxy and VPN checks, you need to create an <a href={'https://iphub.info'} style={{color: '#FBDD11'}} target={'_blank'} rel="noreferrer">iphub.info</a> API key.
         {/* eslint-disable-next-line max-len */}
-        You can find instructions on how to obtain it <a href={'javascript:void(0)'} style={{color: '#FBDD11'}}>here</a>.
+        You can find instructions on how to obtain it <a href={'https://youtube.com/watch?v=abQLHxZPOq8'} style={{color: '#FBDD11'}}>here</a>.
       </Typography>
       <Grid container alignItems="center" justifyContent="center">
         <Grid item>
