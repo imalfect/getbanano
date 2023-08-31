@@ -13,6 +13,7 @@ dotenv.config();
 const __dirname = new URL('.', import.meta.url).pathname;
 // Move a dir back
 const publicDir = path.join(__dirname, '..', 'client', 'dist');
+console.log(publicDir);
 // __dirname = ;
 export const cryptr = new Cryptr(process.env.DB_ENCRYPTION_KEY);
 const app = fastify({
