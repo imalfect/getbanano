@@ -1,3 +1,5 @@
 manager/server/.env
 root/server/.env
+manager/client/dist
+root/client/dist
 node_modules
