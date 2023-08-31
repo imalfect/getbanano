@@ -1,0 +1,12 @@
+{
+  "name": "getbanano",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "buildFrontends": "cd ./manager/client && npm run build && cd ../../root/client && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "iMalFect",
+  "license": "MIT"
+}
