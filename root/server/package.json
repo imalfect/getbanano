@@ -1,0 +1,30 @@
+{
+  "name": "getbanano-root-server",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "iMalFect",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.0"
+  },
+  "dependencies": {
+    "@bananocoin/bananojs": "^2.9.2",
+    "@fastify/autoload": "^5.7.1",
+    "@fastify/cors": "^8.3.0",
+    "@fastify/static": "^6.10.2",
+    "bignumber.js": "^9.1.1",
+    "cryptr": "^6.2.0",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.21.0",
+    "mongoose": "^7.4.1",
+    "node-fetch": "^3.3.2"
+  }
+}
