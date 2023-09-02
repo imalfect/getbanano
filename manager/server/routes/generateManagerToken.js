@@ -21,7 +21,13 @@ export default async function route(app, options) {
       }
       // Count faucet manager tokens
       const count = await countManagerTokensForFaucet(body.faucet);
-
+      if (count >= Number(process.env.MANAGERTOKEN_LIMIT)) {
+        reply.code(429);
+        return {
+          // eslint-disable-next-line max-len
+          error: 'Max manager tokens reached, wait until the older ones expire to continue.',
+        };
+      }
       // Generate a token
       const token = randomstring.generate(
           {
