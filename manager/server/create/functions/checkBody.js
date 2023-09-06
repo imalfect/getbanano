@@ -10,7 +10,7 @@ export async function checkBody(body) {
     !body.theme.icon ||
     !body.theme.theme ||
     !body.reward ||
-    !body.proxyCheck ||
+    body.proxyCheck === undefined ||
     !body.description) {
     return {valid: false, error: 'Missing required fields!'};
   }
