@@ -7,7 +7,7 @@ import {FaucetConfigModel} from '../schemas/faucetConfig.js';
 /* |------------------------------------------------| */
 
 export async function getInstanceListPublic() {
-  // Return all facuets (make syure to not return id)
+  // Return all facuets (make sure to not return id)
   return FaucetConfigModel.find()
       .select('-_id name interval reward description enabled address');
 }
